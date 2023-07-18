@@ -1,0 +1,134 @@
+
+*{margin:0;
+padding:0}
+
+body{
+  
+    
+	}
+nav{
+	background-color:rgb(237, 16, 16);
+	 width:100%;
+    height:100px;
+	position:fixed; /*dejo fijo la navegación */
+	z-index:90; /*le pongo un indice de profundidad superior para que quede por encima de el resto de elementos*/
+	}
+ul{ display:;
+    background:-webkit-linear-gradient(top, #FFF, #CCC);  /*hago un degradado lineal en el ul*/
+    width:800px;
+    margin:30px auto; /*margin vertical 30, y horizontal auto para que se centre*/
+	font-size:20px;
+   border-radius: 10px;	/* borde redondeado de la caja ul*/
+}
+
+/*Probar las propiedades y valores de los li y ajustarlo si es necesario:*/
+li{
+    display:inline-block; 
+    margin-left::-5px; margin-right:-5px; 
+    padding:10px 28px;
+}
+/*hacemos que al pasar el cursor por los li cambien del degradado lineal al radial*/
+li:hover{
+    background:-webkit-linear-gradient(left,#CCC, transparent ,#CCC );}
+section{
+	width:850px;
+	margin: auto; 
+	}
+/*a la imagen que está dentro del header le ponemos una sombra y un margen para glajdgaldjs que se pueda ver con la caja nav  */
+ header img{
+    box-shadow:#000 10px 10px 40px;
+     margin-top:130px;
+    margin-bottom:15px;
+}
+
+/*centramos la imagen con respecto a la caja header*/
+header{
+    
+    text-align: center;
+}
+
+#parallax{ 
+    width: 100%;
+    height: 500px;
+    background-image:url(img/aliceparallax.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;}
+#parallax2{ 
+    width: 100%;
+    height: 500px;
+    background-image:url(img/parallax2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;}
+	
+
+
+
+h2{
+		font-size:25px;
+		font-family:"Lucida Console", Monaco, monospace;
+		padding-left:10px;
+		padding-top:10px;
+    margin-top: 20px;
+    width: 150px;  
+
+    
+}
+    
+		
+p{ 
+   
+    margin-left:180px;
+    text-align: justify;
+    width: 636px; 
+    position:relative;
+    top:-35px;
+    left: 38px;
+}
+			
+p img:hover{
+				filter:hue-rotate(140deg);
+			}
+p img{
+    display:inline-block;
+    width: 150px;
+    padding: 0px;
+    
+   
+    border:3px orange double;
+    
+}
+
+	
+a{color: #000;
+	text-decoration:none;
+	transition:-5s;
+	
+	}
+.up{
+    
+    top: -150px;
+    
+   
+}
+iframe{
+    
+    display:block;
+    margin: auto;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color:white;
+    text-align: center;
+
+}
+	
+
+
+
+	
+	
+				
